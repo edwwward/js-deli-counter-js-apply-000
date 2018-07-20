@@ -13,6 +13,12 @@ function nowServing(line) {
   }
 }
 
+function currentLine(line) {
+  if (line.length === 0) {
+    return('')
+  }
+}
+
 /*
 function currentLine(line) {
   for (let i = 0; i < line.length; i++) {
