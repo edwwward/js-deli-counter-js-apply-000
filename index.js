@@ -13,6 +13,7 @@ function nowServing(line) {
   }
 }
 
+/*
 function currentLine(line) {
   for (let i = 0; i < line.length; i++) {
     line.push(`The line is currently: ${i + 1}. ${line[i]},`);
@@ -21,7 +22,6 @@ function currentLine(line) {
   if (line.length === 0) {
     return('The line is currently empty.')
   }
-  
   return(line);
-  
 }
+*/
