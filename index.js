@@ -18,22 +18,9 @@ function currentLine(line) {
     return('The line is currently empty.');
   } 
   
-  else {
+  if (line.length > 0) {
     for (let i = 0; i < line.length; i++) {
       line.push(`The line is currently: ${i + 1}. ${line[i]},`);
     }
   } return(line);
 }
-
-/*
-function currentLine(line) {
-  for (let i = 0; i < line.length; i++) {
-    line.push(`The line is currently: ${i + 1}. ${line[i]},`);
-  }
-  
-  if (line.length === 0) {
-    return('The line is currently empty.')
-  }
-  return(line);
-}
-*/
